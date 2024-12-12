@@ -83,7 +83,7 @@ to_send = json.dumps(analyze_data(data))
 #LLM summary on our generic statistics.
 #------------------------------------
 
-api_key = "API_KEY"
+api_key = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIxZjMwMDIwODhAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.PEbfx_SD3tGSDZdoMCpQvm1s7xjH_OQ7_06EAVhc8LQ"
 url = f"https://aiproxy.sanand.workers.dev/openai/v1/chat/completions"
 output_md_file = "README.md"
 
